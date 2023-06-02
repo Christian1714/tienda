@@ -22,7 +22,7 @@ $(document).ready(function () {
             '%0A'; // Agrega el nombre del producto al pedido, %0A es el código para salto de línea en WhatsApp
         });
 
-        var numeroWhatsapp = '0963102886'; // Reemplaza con tu número de WhatsApp
+        var numeroWhatsapp = '5930963102886'; // Reemplaza con tu número de WhatsApp
 
         var urlWhatsapp = 'https://api.whatsapp.com/send?phone=' + numeroWhatsapp + '&text=' +
             encodeURIComponent(pedido);
